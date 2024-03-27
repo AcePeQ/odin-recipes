@@ -1,3 +1,9 @@
+/*GENERAL STYLES*/
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+}
+
 /*index.html STYLES*/
 h1 {
   font-size: 48px;
@@ -19,4 +25,18 @@ h1 {
 
 .list__link:hover {
   color: orangered;
+}
+
+/*RECIPE STYLES*/
+.dish__photo {
+  width: 450px;
+  height: auto;
+}
+
+.dish__heading {
+  background-color: aliceblue;
+
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
 }
