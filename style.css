@@ -1,13 +1,33 @@
 /*GENERAL STYLES*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Arial", sans-serif;
   line-height: 1.6;
+
+  background-color: #ffedd5;
+  height: 100vh;
 }
 
 /*index.html STYLES*/
+
 h1 {
   font-size: 48px;
   text-align: center;
+
+  display: block;
+
+  margin-bottom: 32px;
 
   color: rgb(255, 68, 0);
 }
@@ -15,6 +35,12 @@ h1 {
 .list--main {
   list-style: none;
   font-size: 24px;
+
+  text-align: center;
+}
+
+.list__item {
+  margin-bottom: 8px;
 }
 
 .list__link {
