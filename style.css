@@ -16,7 +16,7 @@ body {
   line-height: 1.6;
 
   background-color: #ffedd5;
-  height: 100vh;
+  padding: 10px 32px;
 }
 
 /*index.html STYLES*/
@@ -29,7 +29,7 @@ h1 {
 
   margin-bottom: 32px;
 
-  color: rgb(255, 68, 0);
+  color: #f97316;
 }
 
 .list--main {
@@ -54,15 +54,41 @@ h1 {
 }
 
 /*RECIPE STYLES*/
+.img__box {
+  display: block;
+  margin-bottom: 20px;
+
+  text-align: center;
+}
+
 .dish__photo {
   width: 450px;
   height: auto;
+
+  display: inline-block;
 }
 
 .dish__heading {
-  background-color: aliceblue;
-
-  font-size: 18px;
+  font-size: 28px;
   font-weight: 700;
   text-align: center;
+
+  color: orange;
+  padding: 12px;
+}
+
+.dish-list__item {
+  margin-bottom: 8px;
+}
+
+.highlight {
+  color: #ef4444;
+}
+
+.dish-list--ul {
+  display: block;
+  width: 350px;
+
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
